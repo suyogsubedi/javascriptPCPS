@@ -1,0 +1,48 @@
+1.Talk about code editor that i will be using
+
+2.Talk about Live Server
+
+3.Talk about prettier
+
+4. Talk about emmet inbuilt in VsCode 
+
+5. One of the way to use javascript
+   <script>
+      alert("Hi Guys");
+    </script>
+
+6. The preferred way is
+
+<script src="./app.js"></script>
+
+
+7. Talk about semi colon being optional in javascript.
+
+8. Varaible Declaration
+
+There are 3 ways of declaring variable in javascript var,let,const
+
+Show them the difference between var, let, const
+console.log(a);
+console.log(b);
+console.log(c);
+var a = "Suyog";
+let b = "Rajesh Hamal";
+const c = "Princess Consuela Banana Hammock";
+
+Talk about const ko value replace huna nasakne kura
+
+
+Talk about javascript being dynamically typed
+(No need to tell the compiler about what type of datatype we will store in
+the variable.)
+
+Talk about comments
+
+Method
+JavaScript methods are actions that can be performed on objects
+let text = "Hello World!";
+let result = text.toUpperCase();
+
+
+
