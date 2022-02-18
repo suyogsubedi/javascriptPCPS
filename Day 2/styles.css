@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+  
+}
+p{
+    color: white;
+}
+.hello{
+    color: black;
+}
+.mydiv{
+    border: 1px solid green;
+    width: 13rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    padding: 1rem;
+
+}
+
+.mydiv h1{
+    font-size: 2rem;
+}
+/* 1 rem = 16px */
+.mydiv > p{
+    font-size: 2rem;
+
+}
+
+/* Content and border box */
+
+.content-box{
+    margin-left: 1rem;
+    box-sizing: content-box;
+    width: 13rem;
+    background-color: red;
+    padding: 1rem;
+}
+
+.border-box{
+    margin-left: 1rem;
+    box-sizing: border-box;
+    width: 13rem;
+    background-color: blue;
+    padding: 1rem;
+}
+.ram{
+    width: 50vw;
+    height: 50vh;
+    background-color: red;
+}
+
+.first,.second,.third,.fourth{
+    background-color: red;
+    margin: 1rem;
+}
+.flexbox{
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+}
+
+.parent-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.parent-container .contact-us{
+    background-color: blue;
+    width: 50vw;
+    height: 25vh;
+    padding-top: 4rem;
+    text-align: center;
+}
+
+.parent-container .contact-us p{
+    margin-top: 0.5rem;
+}
+.parent-container>.about-company{
+    background-color: gray;
+    padding-top: 4rem;
+    width: 50vw;
+    height: 25vh;
+    text-align: center;
+}
