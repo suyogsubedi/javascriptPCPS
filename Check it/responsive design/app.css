@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.text-container{
+    width: 100vw;
+    height: 100vh;
+    /* margin: 1rem auto; */
+    background-color: red;
+}
+
+@media(min-width:280px) and (max-width:768px){
+    .text-container{
+        width: 100vw;
+        height: 33vh;
+    }
+    .big-screen{
+        display: none;
+    }
+}

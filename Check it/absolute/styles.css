@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    /* absolute use garna manxa bhane tsko parent lai relative garna parxa */
+    position: relative;
+}
+.div1,.div2,.div3{
+    width: 25vw;
+    height: 25vh;
+    text-align: center;
+    margin-left: 1rem;
+}
+.div1{
+    
+    background-color: red;
+}
+
+.div2{
+    background-color: yellow;
+    position: absolute;
+    top: 40px;
+    left: 150px;
+
+}
+.div3{
+    background-color: pink;
+}

@@ -1,0 +1,26 @@
+.navbar>ul{
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+}
+.navbar>ul>li{
+    list-style: none;
+    margin-left: 1rem;
+   color: white;
+}
+.navbar-small-screen{
+    display: none;
+}
+
+@media(min-width:200px)and (max-width:768px){
+      .navbar{
+          display: none;
+      }
+      .navbar-small-screen{
+        display: block;
+    }
+    .navbar-small-screen>ul{
+        display: none;
+    }
+
+}

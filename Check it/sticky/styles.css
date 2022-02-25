@@ -1,0 +1,28 @@
+.navbar{
+    position: sticky;
+    width: 100vw;
+    top: 0;
+}
+.navbar>ul{
+    display: flex;
+    justify-content: end;
+    margin-right: 6rem;
+    background-color: blueviolet;
+}
+.navbar>ul>li{
+    list-style: none;
+    margin-left: 0.5rem;
+
+}
+.hero-container,.hero-container2{
+    width: 50vw;
+    margin: 1rem auto;
+}
+
+.hero-container{
+    background-color: yellow;
+}
+.hero-container2{
+    background-color: black;
+    color: whitesmoke;
+}

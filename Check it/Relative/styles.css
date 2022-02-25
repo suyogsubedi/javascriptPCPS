@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+}
+.div1,.div2,.div3{
+    width: 25vw;
+    height: 25vh;
+    text-align: center;
+}
+.div1{
+    
+    background-color: red;
+}
+
+.div2{
+    background-color: yellow;
+    position: relative;
+    top: 12rem;
+    left:502px;
+}
+.div3{
+    background-color: pink;
+}

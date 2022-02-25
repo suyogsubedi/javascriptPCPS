@@ -1,0 +1,12 @@
+.div1{
+    width: 40vw;
+    margin: 5rem auto;
+    position: relative;
+}
+
+.some-image{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    transform: rotate(30deg);
+}

@@ -1,0 +1,12 @@
+.myDiv{
+    /* display: flex; */
+    /* justify-content: space-around; */
+}
+.myDiv  .firstDiv{
+    width: 5rem;
+    background-color: red;
+}
+
+.myDiv .secondDiv{
+    background-color: yellow;
+}

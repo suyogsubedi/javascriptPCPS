@@ -1,0 +1,22 @@
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: navajowhite;
+}
+.nav-left>ul{
+    display: flex;
+    width: 15rem;
+    justify-content: space-around;
+}
+
+
+.nav-left>ul>li{
+    list-style: none;
+    cursor:pointer;
+}
+.nav-right>ul>li{
+    list-style: none    ;
+    margin-right: 3rem;
+    cursor: pointer;
+
+}
